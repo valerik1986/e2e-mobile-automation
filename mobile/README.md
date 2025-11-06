@@ -25,11 +25,10 @@ It uses the **Page Object Model (POM)** architecture for reusability, readabilit
 ## 📁 Project Structure
 
 ```text
-e2e-engage365-mobile/
+e2e-AUTOMATION/
 │
 ├── test/
 │   ├── helpers/
-│   │   └── assert.js
 │   ├── locators/
 │   │   ├── signinpage-locators.js
 │   │   ├── homepage-locators.js
@@ -46,15 +45,13 @@ e2e-engage365-mobile/
 │   │   ├── portfolio-page.js
 │   │   └── profile-page.js
 │   ├── specs/
-│   │   └── test.e2e.js
-│   └── suites/
-│       └── engageRegression.js
-│
+│       └── test.e2e.js
+│   
 ├── apps/
 │   ├── ios/
-│   │   └── Engage_3.0.148.ipa
+│   │   └── 
 │   └── android/
-│       └── Engage_3.0.148.apk
+│       └── 
 │
 ├── wdio.conf.js
 ├── package.json
