@@ -22,37 +22,39 @@ It uses the **Page Object Model (POM)** architecture for reusability, readabilit
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 e2e-engage365-mobile/
+│
 ├── test/
-│ ├── helpers/
-│ │ └── assert.js
-│ ├── locators/
-│ │ ├── signinpage-locators.js
-│ │ ├── homepage-locators.js
-│ │ ├── marketspage-locators.js
-│ │ ├── portfoliopage-locators.js
-│ │ ├── morepage-locators.js
-│ │ └── profilepage-locators.js
-│ ├── pageobjects/
-│ │ ├── base-page.js
-│ │ ├── signin-page.js
-│ │ ├── home-page.js
-│ │ ├── markets-page.js
-│ │ ├── more-page.js
-│ │ ├── portfolio-page.js
-│ │ └── profile-page.js
-│ ├── specs/
-│ │ └── test.e2e.js
-│ └── suites/
-│ └── engageRegression.js
+│   ├── helpers/
+│   │   └── assert.js
+│   ├── locators/
+│   │   ├── signinpage-locators.js
+│   │   ├── homepage-locators.js
+│   │   ├── marketspage-locators.js
+│   │   ├── portfoliopage-locators.js
+│   │   ├── morepage-locators.js
+│   │   └── profilepage-locators.js
+│   ├── pageobjects/
+│   │   ├── base-page.js
+│   │   ├── signin-page.js
+│   │   ├── home-page.js
+│   │   ├── markets-page.js
+│   │   ├── more-page.js
+│   │   ├── portfolio-page.js
+│   │   └── profile-page.js
+│   ├── specs/
+│   │   └── test.e2e.js
+│   └── suites/
+│       └── engageRegression.js
 │
 ├── apps/
-│ ├── ios/
-│ │ └── Engage_3.0.148.ipa
-│ └── android/
-│ └── Engage_3.0.148.apk
+│   ├── ios/
+│   │   └── Engage_3.0.148.ipa
+│   └── android/
+│       └── Engage_3.0.148.apk
 │
 ├── wdio.conf.js
 ├── package.json
